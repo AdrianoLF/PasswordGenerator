@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <!-- vou importar o CSS no arquivo index.js -->
+</head>
+
+<body>
+  <!-- PASSWORD GENERATOR -->
+  <!-- USER WILL CAN PICK THE FOLLOWING OPTIONS:
+        +capital letter 
+        +small letter
+        +numbers
+        +symbol
+  -->
+  <div class="container">
+    <H1>GERADOR DE SENHAS</H1>
+
+    <div class="result"></div>
+
+    <span class="bfr-input">Quantidade de caracteres</span><input type="number" min="1" max="30" id="number-of-chars"
+      step="1"><br>
+
+    <span class="bfr-input">Adicionar maiúsculas</span><input type="checkbox" id="add-capitalletter"><br>
+
+    <span class="bfr-input">Adicionar minúsuclas</span><input type="checkbox" id="add-smallletter"><br>
+
+    <span class="bfr-input">Adicionar números</span><input type="checkbox" id="add-number"><br>
+
+    <span class="bfr-input">Adicionar símbolos</span><input type="checkbox" id="add-symbol"><br>
+
+    <button id="result-btn">GERAR SENHA</button>
+
+  </div>
+
+
+
+  <script src="./js/bundle.js"></script>
+</body>
